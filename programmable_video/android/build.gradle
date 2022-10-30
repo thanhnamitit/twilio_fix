@@ -47,6 +47,6 @@ android {
 }
 
 dependencies {
+    implementation fileTree(dir: "libs", include: ["*.aar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "com.twilio:video-android:$twilio_video_version"
 }
